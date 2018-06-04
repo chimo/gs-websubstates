@@ -1,0 +1,27 @@
+.chr-websubs {
+    width: 100%;
+}
+
+.chr-websubs,
+.chr-websubs td,
+.chr-websubs th {
+    border: 1px solid #ddd;
+}
+
+.chr-websubs td,
+.chr-websubs th {
+    padding: 8px;
+}
+
+.chr-websubs th {
+    white-space: nowrap;
+}
+
+.chr-websubs .profile-avatar {
+    float: left;
+}
+
+.chr-websubs .profile-details {
+    margin-left: 60px;
+}
+
