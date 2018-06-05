@@ -8,8 +8,8 @@
     border: 1px solid #ddd;
 }
 
-.chr-websubs td,
-.chr-websubs th {
+#websubadminpanel .chr-websubs td,
+#websubadminpanel .chr-websubs th {
     padding: 8px;
 }
 
@@ -23,5 +23,21 @@
 
 .chr-websubs .profile-details {
     margin-left: 60px;
+}
+
+#websubadminpanel #site_nav_local_views_wrapper,
+#websubadminpanel #content_wrapper,
+#websubadminpanel #content {
+    position: static;
+}
+
+#websubadminpanel #core {
+    border: 0;
+}
+
+#websubadminpanel #content {
+    padding-left: 0;
+    padding-right: 0;
+    width: 100%;
 }
 

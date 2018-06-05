@@ -101,6 +101,14 @@ class WebsubadminpanelAction extends AdminPanelAction
         $this->elementEnd('a');
     }
 
+    function showLocalNavBlock() {
+        // Don't show left column
+    }
+
+    function showAside() {
+        // Don't show right column
+    }
+
     function showContent() {
         if ($this->page === 1) {
             $this->showOverview();
