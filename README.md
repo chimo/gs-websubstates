@@ -19,5 +19,5 @@ A new "WebSub States" link should appear in the left-navigation on the "Admin" p
 
 On the "WebSub States" page, you should see a list of WebSubs your instance knows about, the date they were created and their status:
 
-
+![screenshot](https://static.chromic.org/repos/gs-websubstates/screenshot.png)
 
